@@ -1,0 +1,39 @@
+{
+  "name": "@icedream/yon-tools",
+  "version": "0.0.1",
+  "description": "Tools that adapt to whether they are called from Yarn or npm and will respectively transform input arguments.",
+  "main": "dist/yarn-or-npm.js",
+  "bin": {
+    "yon": "./dist/yon.js",
+    "yon-lerna": "./dist/yon-lerna.js"
+  },
+  "scripts": {
+    "prepublish": "babel -d dist src",
+    "build": "babel -d dist src",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icedream/yon-tools.git"
+  },
+  "author": "Carl Kittelberger <icedream@icedream.pw>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icedream/yon-tools/issues"
+  },
+  "homepage": "https://github.com/icedream/yon-tools#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.39",
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "babel-plugin-shebang": "^0.0.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "execa": "^0.9.0"
+  }
+}

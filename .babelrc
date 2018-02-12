@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    ["babel-plugin-shebang", {
+      "force": true,
+      "replacement": "#!/usr/bin/env node"
+    }]
+  ]
+}
