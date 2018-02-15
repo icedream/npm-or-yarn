@@ -1,6 +1,6 @@
 {
   "name": "yon-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tools that adapt to whether they are called from Yarn or npm and will respectively transform input arguments.",
   "main": "dist/yarn-or-npm.js",
   "bin": {
