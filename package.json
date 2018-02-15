@@ -17,6 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/icedream/yon-tools.git"
   },
+  "files": [
+    "dist/",
+    "*.md"
+  ],
   "author": "Carl Kittelberger <icedream@icedream.pw>",
   "license": "MIT",
   "bugs": {
